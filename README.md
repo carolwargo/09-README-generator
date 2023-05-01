@@ -1,9 +1,9 @@
-# fns'aja
+# Professional README Generator
 
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
-sl;ajf
+CLI Professional README Generator
 
 ## Table of Contents
 
@@ -18,17 +18,17 @@ sl;ajf
 To install necessary dependencies, run the following command:
 
 ```
-sldaj
+npm install
 ```
 
 ## Usage
-cljalfsj
+type node index in terminal and answer questions as prompted 
 
 ## Contributing
 undefined
 
 ## License
-fns'aja is licensed under the Apache 2.0 License License.
+Professional README Generator is licensed under the Apache 2.0 License License.
 
 
 ## Tests
@@ -38,6 +38,6 @@ undefined
 ```
 
 ### Questions
-If you have any questions about the repo, open an issue or contact me directly at [carosldafj](mailto:carosldafj). 
+If you have any questions about the repo, open an issue or contact me directly at [carolwargo@gmail.com](mailto:carolwargo@gmail.com). 
 
-View my profile for additional projects at [carolwargo	](https://github.com/carolwargo	)
+View my profile for additional projects at [carolwargo](https://github.com/carolwargo)

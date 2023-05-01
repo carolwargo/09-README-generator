@@ -142,10 +142,10 @@ const questions = [
   
   {
     type: "input",
-    name: "test",
+    name: "Tests",
     message:"Enter test command.",
-    validate: (questions) => {
-      if (questions) {
+    validate: (Tests) => {
+      if (Tests) {
         return true;
       } else {
         console.log("Please enter test command.");
@@ -157,8 +157,8 @@ const questions = [
     type: "input",
     name: "Credits",
     message:"Enter direct reference.",
-    validate: (questions) => {
-      if (questions) {
+    validate: (Credits) => {
+      if (Credits) {
         return true;
       } else {
         console.log("Please enter direct reference.");
@@ -170,8 +170,8 @@ const questions = [
     type: "input",
     name: "Contributing",
     message:"Enter instructions on how to contribute to your project.",
-    validate: (questions) => {
-      if (questions) {
+    validate: (Contributing) => {
+      if (Contributing) {
         return true;
       } else {
         console.log("Please enter instructions on how to contribute to your project.");
