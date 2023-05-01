@@ -5,7 +5,7 @@
 ## Description
 CLI Professional README Generator
 ```
-> [!Video https://drive.google.com/file/d/1gp6t2YcDSJUaJNO_di9BqPyVAWdQvkgm/view]
+[!Video https://drive.google.com/file/d/1gp6t2YcDSJUaJNO_di9BqPyVAWdQvkgm/view]
 ```
 ## Table of Contents
 
