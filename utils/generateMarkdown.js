@@ -41,6 +41,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license) {
     return `
+
 ## License
 This project is licensed under the ${license} license. Click [here](${renderLicenseLink(license)}) for more information.`;
   } else {
@@ -87,19 +88,15 @@ ${data.contributing}
 ${renderLicenseLink(data.license) ? '* [License](#license)\n' : ''} 
 
 ## Tests
-
 To run tests, run the following command:
 
 \`\`\`
 ${data.tests}
 \`\`\`
 
-
 ### Questions
-
 If you have any questions about the repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). 
 
-![Avatar](${data.avatar}&s=100) 
 View my profile for additional projects at [${data.github}](https://github.com/${data.github})`;
 }
 
