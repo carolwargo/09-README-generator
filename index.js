@@ -153,6 +153,32 @@ const questions = [
       }
     },
   },  
+  {
+    type: "input",
+    name: "Credits",
+    message:"Enter direct reference.",
+    validate: (questions) => {
+      if (questions) {
+        return true;
+      } else {
+        console.log("Please enter direct reference.");
+        return false;
+      }
+    },
+  },  
+  {
+    type: "input",
+    name: "Contributing",
+    message:"Enter instructions on how to contribute to your project.",
+    validate: (questions) => {
+      if (questions) {
+        return true;
+      } else {
+        console.log("Please enter instructions on how to contribute to your project.");
+        return false;
+      }
+    },
+  },  
 ];
 
 //ASYNC initialize app?
