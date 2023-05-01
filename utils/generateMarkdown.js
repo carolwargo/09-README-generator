@@ -15,6 +15,7 @@ function renderLicenseBadge(license) {
     return '';
   }
 }
+
 //LICENSE LINK function 
 function renderLicenseLink(license) {
 
@@ -62,8 +63,8 @@ ${data.description}
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
+* [License](#License)
 * [Tests](#tests)
-${renderLicenseLink(data.license) ? '* [License](#license)\n' : ''} 
 * [Questions](#questions)
 
 ## Installation
@@ -81,6 +82,9 @@ ${data.usage}
 ## Contributing
 
 ${data.contributing}
+
+## License
+${renderLicenseLink(data.license) ? '* [License](#license)\n' : ''} 
 
 ## Tests
 
