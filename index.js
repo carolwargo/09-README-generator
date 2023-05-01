@@ -1,6 +1,3 @@
-  //COMPARE name input against MARKDOWN values
-  //table of contents based on name values returned?
-  //badges DISPLAYED renderLicenseBadge?
 const fs=require ('fs');
 //WHAT FILES DO I NEED TO IMPORT IMPORTED files
 const {writeFile} = require ('fs/promises');
