@@ -1,5 +1,5 @@
+//IMPORTED files
 const fs=require ('fs');
-//WHAT FILES DO I NEED TO IMPORT IMPORTED files
 const {writeFile} = require ('fs/promises');
 const {prompt} = require ('inquirer');
 const generateMarkdown = require ('./utils/generateMarkdown');
@@ -14,14 +14,14 @@ async function writeToFileAsync(fileName, data) {
   }
 }
 
-// -REGULAR FUNCTION 
+//ELIMINATE after test
 function writeToFileCallback(fileName, data) {
   writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log("File written successfully!")
   );
 }
 
-
+//QUESTIONS ARRAY 
 const questions = [
   {
     type: "input",
@@ -109,7 +109,7 @@ const questions = [
           url: 'http://unlicense.org',
           color: 'blue'
         }
-      }
+      },
       
     ]
   },
@@ -142,31 +142,23 @@ const questions = [
   
   {
     type: "input",
-    name: "questions",
-    message:"Please provide instructions on how to report issues and how to make contributions. Also, include your GitHub profile and email for direct contact.",
+    name: "test",
+    message:"Enter test command.",
     validate: (questions) => {
       if (questions) {
         return true;
       } else {
-        console.log("Please enter instructions for questions to your project.");
+        console.log("Please enter test command.");
         return false;
       }
     },
   },  
 ];
 
-//ASYNC pause execution until PROMISE resolved
-//SEARCH user avatar by github username
-/*async function findAvatar(username) {
-  const userData = await get(`https://api.github.com/search/users?q=${username}`);
-  return userData.data.items[0].avatar_url;
-}*/
-
 //ASYNC initialize app?
 async function init() {
   try {
     const answers = await prompt(questions);
-    //answers.avatar = await findAvatar(answers.github);
     console.log('Generating README.md...');
     await writeFile('README.md', generateMarkdown(answers));
     console.log("File written successfully!");
@@ -175,5 +167,5 @@ async function init() {
   }
 }
 
-// INITIALIZE call
+// CALL
 init();
