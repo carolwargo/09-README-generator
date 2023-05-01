@@ -1,10 +1,10 @@
-# Professional README Generator
+# Professional README-Generator
 
 
 
 ## Description
 
-This is a CLI (command-line) application for a Professional README generator. The purpose is to allow a User to devote more time to developing their project and less time on formatting a README file.  Markdown format mimics current("Professional README-generator") README.
+CLI README Generator
 
 ## Table of Contents
 
@@ -20,12 +20,12 @@ This is a CLI (command-line) application for a Professional README generator. Th
 To install necessary dependencies, run the following command:
 
 ```
-npm install
+install 
 ```
 
 ## Usage
 
-Type node index in Terminal- Answer questions
+se
 
 ## Contributing
 
